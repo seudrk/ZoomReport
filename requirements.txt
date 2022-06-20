@@ -1,0 +1,19 @@
+To Run with Python 3.9
+
+Packages you need to install
+requests (used ver. 2.23.0)
+Authlib (Used ver. 0.14.1
+pandas (Used ver. 1.0.3)
+google-api-python-client (Used ver. 1.8.0)
+
+Zoom API Key and API Secret from your zoom app
+Zoom Meeting ID
+Rubric = Time asked to fill the assistance
+DFolder = Folder name inside your GDrive account where the file will be saved
+Service File = JSON obtained from google to let you save the file
+
+Inside the Zoom Class __init__
+ token exp = Token expiration time (in secs) 
+ token algo = Token algorithm
+  
+  Both are obtained inside your zoom app (Application type JWT)
